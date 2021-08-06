@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [NC,L]
+
+RewriteCond %{HTTP_HOST} www.yougotube.org
+RewriteRule (.*) https://yougotube.org/$1 [R=301,L]
+
+RewriteRule ^([0-9a-zA-Z_\s]+)$   index.php?l=$1 [L]  

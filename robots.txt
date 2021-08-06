@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://yougotube.org/sitemap.xml
+
