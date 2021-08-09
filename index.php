@@ -70,6 +70,15 @@
                    <a href="">Privacy Policy</a>
                    <a href="">Terms and Condition</a>
                </div>
+               <br>
+               <div class="social">
+                   <a href="/">
+                   <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span></a>
+                   <a href="/">
+                   <span class="icon">
+                       <ion-icon name="logo-twitter"></ion-icon>
+                   </span></a>
+               </div>
             </div>
             <div class="btm-footer">
                 <p>Copyright 2021 &copy; Ytgoconverter. All right reserved</p>

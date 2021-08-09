@@ -203,6 +203,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	text-align:center;
 	color: #ccc;
 	padding:15px;
@@ -210,6 +211,15 @@ a{
 .section .footer .top-footer a{
 	color: #ccc;
 	padding:10px;
+}
+.section .footer .top-footer .social{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.section .footer .top-footer .social .icon{
+	padding:10px;
+	color: var(--yellow-light);
 }
 .section .footer .btm-footer{
 	padding:10px;
